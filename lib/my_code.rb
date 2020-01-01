@@ -39,9 +39,9 @@ result = []
 result   
 end 
 
-def reduce_to_total (source_array, starting_point=0)
+def reduce_to_total (source_array, 0)
 counter = 0 
-result = starting_point
+result = 0
   while counter < source_array.size
   result += source_array[counter]
   counter += 1
