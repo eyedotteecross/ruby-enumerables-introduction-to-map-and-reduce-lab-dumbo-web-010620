@@ -10,7 +10,7 @@ result
 end
 
 def map_to_no_change (source_array)
-counter + 0 
+counter = 0 
 result = []
   while counter < source_array.size do
   result << source_array[counter] 
