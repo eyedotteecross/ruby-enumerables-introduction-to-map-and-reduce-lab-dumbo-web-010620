@@ -34,6 +34,7 @@ counter = 0
 result = []
   while counter < source_array.size do  
   result << source_array[counter] ** 2
+  counter += 1
   end 
 result   
 end 
