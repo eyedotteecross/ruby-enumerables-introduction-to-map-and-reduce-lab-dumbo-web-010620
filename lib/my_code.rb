@@ -62,5 +62,9 @@ result
 end 
 
 def reduce_to_any_true(source_array)
-
+counter = 0
+result = false
+  while counter < source_array.size
+  if
+  end   
 end 
